@@ -12,4 +12,4 @@ source activate autoencoder
 
 cd autoencoder_project
 
-python Non-linear_model.py $SLURM_ARRAY_TASK_ID
+python non_linear_model.py $SLURM_ARRAY_TASK_ID
